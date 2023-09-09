@@ -1,6 +1,6 @@
 ---
 - name: User
-  hosts: servera.lab.example.com
+  hosts: all
   vars_files:
     user_list.yml
   tasks:
