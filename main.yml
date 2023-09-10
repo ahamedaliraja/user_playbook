@@ -1,0 +1,8 @@
+---
+- name: Collection user
+  hosts: testing
+  become: true
+  collections:
+    - rhel.user
+  roles:
+    - rhel.user.newuser
