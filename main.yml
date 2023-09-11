@@ -1,0 +1,8 @@
+---
+- name: User Creation Play
+  hosts: testing
+  become: true
+  collections:
+    - rhel.user
+  roles:
+    - newuser
