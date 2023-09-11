@@ -1,3 +1,4 @@
-servera.lab.example.com
+[testing]
+serverf.lab.example.com
 [prod]
 serverc.lab.example.com
